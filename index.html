@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Food delivery</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body background-color="pink">
+    <nav id="navbar">
+      <div id="logo">
+        <img src="logo.png" alt="foodelivery.com" />
+      </div>
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item">
+          <a href="#services-container" target="_blank">Services</a>
+        </li>
+        <li class="item">
+          <a href="#client-section" target="_blank">Our Clients</a>
+        </li>
+        <li class="item"><a href="#contact" target="_blank">Contact Us</a></li>
+        <li class="item"><a href="#about" target="_blank">About Us</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1 class="h-primary">Welcome to foodelivery</h1>
+      <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+      <h1 class="h-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="menu.jpg" alt="" />
+          <h2 class="h-secondary center"><a href="menu.html">Food Menu</a></h2>
+          <p class="center"></p>
+        </div>
+        <div class="box">
+          <img src="food1.jfif" alt="" />
+          <h2 class="h-secondary center">
+            <a href="menu.html">Highly Ordering</a>
+          </h2>
+          <p class="center"></p>
+        </div>
+        <div class="box">
+          <img src="food2.png" alt="" />
+          <h2 class="h-secondary center">
+            <a href="menu.html">Recommendation</a>
+          </h2>
+          <p class="center"></p>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h1 class="h-primary center">Our Clients</h1>
+      <div id="clients">
+        <div class="client-item">
+          <img src="eats.png" alt="Our Client" />
+        </div>
+        <div class="client-item">
+          <img src="zomato.png" alt="Our Client" />
+        </div>
+
+        <div class="client-item">
+          <img src="foodpanda.png" alt="Our Client" />
+        </div>
+      </div>
+    </section>
+    <div id="contact">
+      <div class="container_contact">
+        <div style="text-align: center">
+          <h1>Contact Us</h1>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="./logo.png" style="width: 100%" />
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+                required
+              />
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+                required
+              />
+              <label for="city">City</label>
+              <select id="city" name="city" required>
+                <option value="Ludhiana">Ludhiana</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Patiala">Patiala</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Food requirements, preparation methods.."
+                style="height: 170px"
+                required
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="about">
+      <h1 class="h-primary center">About Us</h1>
+      <div id="clients">
+        <div class="contact-box">
+          <a href="https://www.facebook.com">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </div>
+        <div class="contact-box">
+          <a href="https://www.instagram.com/zomato/?hl=en">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+
+        <div class="contact-box">
+          <a href="https://www.gmail.com">
+            <i class="bi bi-mailbox"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="center">
+        Copyright &copy; www.foodelivery.com. All rights reserved! Owned by
+        Geetika, BCA, 2B
+      </div>
+    </footer>
+  </body>
+</html>
